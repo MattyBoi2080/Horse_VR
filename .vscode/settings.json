@@ -51,5 +51,5 @@
         "temp/": true,
         "Temp/": true
     },
-    "dotnet.defaultSolution": "HORSEVR_v3.sln"
+    "dotnet.defaultSolution": "Horse_VR.sln"
 }

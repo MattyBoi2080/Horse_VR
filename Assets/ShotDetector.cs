@@ -20,6 +20,8 @@ public class ShotDetector : MonoBehaviour
     {
         Ball = GetComponent<GameObject>();
         Net = GetComponent<GameObject>();
+        ScoreBoard.text = "Score: " + PlayerScore.ToString();
+        scoreInText.text = "In: " + PlayerScore.ToString();
     }
 
     // Update is called once per frame
@@ -35,6 +37,7 @@ public class ShotDetector : MonoBehaviour
     {
         PlayerScore++;
         ColliderDetect.text = other.gameObject.name;
-        
+        Debug.Log(other.gameObject.name);
+    
     }
 }
